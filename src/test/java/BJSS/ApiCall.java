@@ -12,6 +12,8 @@ import static org.testng.Assert.assertTrue;
 
 public class ApiCall {
 
+    //all API Tests in one class
+
     //Read Action - GET Request
     @Test
     public void ResponseCodeAndBody() {
