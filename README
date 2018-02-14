@@ -1,0 +1,16 @@
+General Information about the project:
+
+Purpose: creating and testing API calls to https://reqres.in
+
+I have created only one java class, ApiCall, which contains all the four CRUD actions required in the test specifications:
+
+a. GET Request(Read Action) is used in the first method, ResponseCodeAndBody() , that gets the list of current users and       
+   asserts that the status code is 200.
+
+b. POST Request(Create Action) is used in the second method, CreateUser() , that creates a new user in the API database,  
+   asserts that the status code is 201 as specified and also that the user has been created successfully.
+   
+c. PUT Request(Update Action) is used in the third method, UpdateUser() , that updates the name of a user from Larry Test to      Rachel Larry in the API database, asserts that the status code is 200 as specified and also that the user has been updated    successfully with the new name.
+
+d. DELETE Request(Delete Action) is used in the forth method, DeleteUser(), that deletes the user registered and updated in   
+   the previous 2 methods and also asserts that the status code is 204 as specified.
